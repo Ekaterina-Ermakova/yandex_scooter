@@ -1,6 +1,6 @@
 import pytest
 from api_functions import create_order, get_order_by_track
-from test_data import ORDER_PAYLOAD
+from data import ORDER_PAYLOAD
 
 def test_order_creation():
     response = create_order(ORDER_PAYLOAD)
